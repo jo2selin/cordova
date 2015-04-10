@@ -38,4 +38,7 @@
     <content src="index.html" />
     <access origin="*" />
     <engine name="ios" version="3.8.0" />
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
 </widget>
